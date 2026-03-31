@@ -1,134 +1,75 @@
-# 🔢 dtZahlensysteme
+# dtZahlensysteme
 
-<div align="center">
+A German web portal for number systems and conversion tools. This application allows users to convert numbers between different number systems like decimal, binary, octal, and hexadecimal.
 
-![PHP](https://img.shields.io/badge/PHP-777BB4.svg)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1.svg)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26.svg)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6.svg)
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Stars](https://img.shields.io/github/stars/OutBlade/dtZahlensysteme?style=social)
-![Forks](https://img.shields.io/github/forks/OutBlade/dtZahlensysteme?style=social)
+Perfect for students, developers, and anyone working with number systems.
 
-[🎮 Live Demo](#live-demo) • [📖 Documentation](#documentation) • [🛠️ Installation](#installation) • [💡 Usage](#usage) • [🤝 Contributing](#contributing)
+## Features
 
-</div>
+- Multiple Number Systems: Decimal, Binary, Octal, Hexadecimal
+- Real-time Conversion: Instant conversion results
+- Learning Mode: Step-by-step explanations
+- Modern UI: Clean, responsive design
+- Mobile-Friendly: Works on all devices
+- History: Saves previous conversions
+- Multilingual: German and English
 
----
+## Live Demo
 
-## 📋 Overview
+Visit the live demo to experience the full application:
 
-Ein deutsches Zahlensysteme-Webportal, das verschiedene numerische Systeme und Konvertierungstools anbietet. Diese Anwendung ermöglicht Benutzern, Zahlen zwischen verschiedenen Zahlensystemen wie Dezimal, Binär, Oktal und Hexadezimal umzurechnen.
+https://outblade.github.io/dtZahlensysteme/
 
-**🎯 Perfekt für Studierende, Entwickler und alle, die mit Zahlensystemen arbeiten müssen.**
+Key Features:
+- Fully functional web application
+- Multiple number systems (Decimal, Binary, Octal, Hex)
+- Real-time conversion with result display
+- Integrated learning modules and explanations
+- Mobile-optimized responsive design
 
----
+## Installation
 
-## ✨ Key Features
+### Prerequisites
+- PHP (>= 7.4)
+- MySQL or MariaDB
+- Apache or Nginx
+- Composer for PHP dependencies
 
-- 🔢 **Mehrere Zahlensysteme**: Dezimal, Binär, Oktal, Hexadezimal
-- 🔄 **Echtzeit-Konvertierung**: Sofortige Umrechnungsergebnisse
-- 📚 **Lernmodus**: Schritt-für-Schritt Erklärungen
-- 🎨 **Modernes UI**: Sauberes, responsives Design
-- 📱 **Mobile-Friendly**: Funktioniert auf allen Geräten
-- 💾 **Verlauf**: Speichert frühere Konvertierungen
-- 🌐 **Mehrsprachig**: Deutsch und Englisch
-
----
-
-## 🎬 Live Demo
-
-<div align="center">
-
-### 🖼️ Website-Vorschau
-**🔗 [▶️ Zahlensysteme Live Demo](https://outblade.github.io/dtZahlensysteme/)**
-
-**Besuchen Sie die Live-Demo:**  
-- 📱 Voll funktionsfähige Webanwendung  
-- 🔢 Mehrere Zahlensysteme (Dezimal, Binär, Oktal, Hex)  
-- 🔄 Echtzeit-Konvertierung mit Ergebnisanzeige  
-- 📚 Integrierte Lernmodule und Erklärungen  
-- 🌐 Mehrsprachig (Deutsch/Englisch)  
-
-**Funktionen im Überblick:**
-- Zahleneingabe mit sofortiger Konvertierung
-- Verlaufsspeicherung früherer Umrechnungen
-- Theoretische Erklärungen zu allen Zahlensystemen
-- Mobile-optimiertes responsives Design
-
----
-
-### 🌐 Technische Details
-
-**🛠️ Technologie-Stack:**
-- **Backend:** PHP 7.4+ mit PDO-Datenbankanbindung
-- **Frontend:** HTML5, CSS3, Vanilla JavaScript
-- **Datenbank:** MySQL/MariaDB mit optimierten Abfragen
-- **Deployment:** Apache/Nginx mit SSL-Unterstützung
-
-**⚡ Performance-Features:**
-- AJAX-basierte Echtzeitkonvertierung
-- Clientseitige Validierung und Fehlerbehandlung
-- Effiziente Datenbank-Caching
-- Komprimierte Asset-Lieferung
-
----
-
-### 📱 Mobile-Optimierung
-
-Die Anwendung ist vollständig für mobile Geräte optimiert:
-- 📐 Touch-Unterstützung für Zahleneingabe
-- � Swipe-Gesten für Systemwechsel
-- 🎨 Angepasste UI für kleine Bildschirme
-- ⚡ Offline-Funktionalität mit Service Worker
-
----
-
-## 🛠️ Installation
-
-### Voraussetzungen
-- [PHP](https://www.php.net/downloads.php) (>= 7.4)
-- [MySQL](https://www.mysql.com/) oder [MariaDB](https://mariadb.org/)
-- [Apache](https://httpd.apache.org/) oder [Nginx](https://nginx.org/)
-- [Composer](https://getcomposer.org/) für PHP-Abhängigkeiten
-
-### Schnellstart
+### Quick Start
 ```bash
-# Repository klonen
+# Clone the repository
 git clone https://github.com/OutBlade/dtZahlensysteme.git
 cd dtZahlensysteme
 
-# Abhängigkeiten installieren
+# Install dependencies
 composer install
 
-# Datenbank einrichten
+# Setup database
 mysql -u root -p < setup.sql
 
-# Webserver konfigurieren
-# Apache/Nginx auf public/ Verzeichnis zeigen
+# Configure web server
+# Point Apache/Nginx to public/ directory
 ```
 
-### Konfiguration
+### Configuration
 ```php
-// config.php - Datenbankeinstellungen
+// config.php - Database settings
 define('DB_HOST', 'localhost');
 define('DB_USER', 'username');
 define('DB_PASS', 'password');
 define('DB_NAME', 'dtZahlensysteme');
 
-// Anwendungseinstellungen
-define('APP_LANG', 'de'); // oder 'en'
+// Application settings
+define('APP_LANG', 'de'); // or 'en'
 define('SAVE_HISTORY', true);
 define('MAX_HISTORY', 50);
 ```
 
----
+## Usage
 
-## 💡 Usage
-
-### Grundlegende Nutzung
+### Basic Usage
 ```php
-// Zahlensystem-Konverter
+// Number system converter
 class NumberConverter {
     public function toBinary($decimal) {
         return decbin($decimal);
@@ -155,19 +96,19 @@ class NumberConverter {
     }
 }
 
-// Verwendung
+// Usage
 $converter = new NumberConverter();
 $decimal = 42;
 
-echo "Dezimal: $decimal\n";
-echo "Binär: " . $converter->toBinary($decimal) . "\n";
-echo "Oktal: " . $converter->toOctal($decimal) . "\n";
+echo "Decimal: $decimal\n";
+echo "Binary: " . $converter->toBinary($decimal) . "\n";
+echo "Octal: " . $converter->toOctal($decimal) . "\n";
 echo "Hex: " . $converter->toHex($decimal) . "\n";
 ```
 
-### Erweiterte Funktionen
+### Advanced Features
 ```php
-// Mit Verlaufsspeicherung
+// With history storage
 class ConversionHistory {
     private $db;
     
@@ -188,7 +129,7 @@ class ConversionHistory {
     }
 }
 
-// API-Endpunkt
+// API endpoint
 class NumberAPI {
     public function convert($number, $from, $to) {
         $converter = new NumberConverter();
@@ -213,9 +154,9 @@ class NumberAPI {
 }
 ```
 
-### Datenbank-Schema
+### Database Schema
 ```sql
--- conversions Tabelle
+-- conversions table
 CREATE TABLE conversions (
     id INT AUTO_INCREMENT PRIMARY KEY,
     from_system VARCHAR(20) NOT NULL,
@@ -225,7 +166,7 @@ CREATE TABLE conversions (
     ip_address VARCHAR(45)
 );
 
--- Benutzer-Sitzungen
+-- User sessions
 CREATE TABLE sessions (
     id VARCHAR(32) PRIMARY KEY,
     user_data TEXT,
@@ -234,150 +175,117 @@ CREATE TABLE sessions (
 );
 ```
 
----
-
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 dtZahlensysteme/
-├── 📁 src/                    # PHP Quellcode
-│   ├── 📄 NumberConverter.php   # Konvertierungslogik
-│   ├── 📄 ConversionHistory.php # Verwaltung
-│   ├── 📄 NumberAPI.php      # API-Endpunkte
-│   └── 📄 config.php          # Konfiguration
-├── 📁 public/                 # Web-Root
-│   ├── 📄 index.php          # Hauptseite
-│   ├── 📄 api.php            # API-Schnittstelle
-│   ├── 📄 css/               # Stylesheets
-│   └── 📄 js/                # JavaScript
-├── 📁 database/               # Datenbank
-│   ├── 📄 setup.sql           # Installation
-│   └── 📄 schema.sql          # Struktur
-├── 📄 composer.json           # PHP-Abhängigkeiten
-├── 📄 README.md              # Diese Datei
-└── 📄 LICENSE               # MIT Lizenz
+├── src/                    # PHP source code
+│   ├── NumberConverter.php   # Conversion logic
+│   ├── ConversionHistory.php # Management
+│   ├── NumberAPI.php      # API endpoints
+│   └── config.php          # Configuration
+├── public/                 # Web root
+│   ├── index.php          # Main page
+│   ├── api.php            # API interface
+│   ├── css/               # Stylesheets
+│   └── js/                # JavaScript
+├── database/               # Database
+│   ├── setup.sql           # Installation
+│   └── schema.sql          # Structure
+├── composer.json           # PHP dependencies
+├── README.md              # This file
+└── LICENSE               # MIT License
 ```
 
----
-
-## 🧪 Testing
+## Testing
 
 ```bash
-# PHP Unit Tests
+# PHP Unit tests
 composer test
 
-# Manuelle Tests
-# 1. Konvertierungsfunktionen testen
-# 2. API-Endpunkte überprüfen
-# 3. Datenbankverbindungen testen
-# 4. Cross-Browser-Kompatibilität
+# Manual tests
+# 1. Test conversion functions
+# 2. Check API endpoints
+# 3. Test database connections
+# 4. Cross-browser compatibility
 ```
 
-### Testfälle
-- Dezimal → Binär: 42 → 101010
-- Binär → Dezimal: 101010 → 42
-- Oktal → Hex: 52 → 2A
-- Hex → Oktal: 2A → 52
-- Grenzwerte testen: 0, 255, 1024
+### Test Cases
+- Decimal → Binary: 42 → 101010
+- Binary → Decimal: 101010 → 42
+- Octal → Hex: 52 → 2A
+- Hex → Octal: 2A → 52
+- Edge cases: 0, 255, 1024
 
----
+## Statistics
 
-## 📊 Statistics
-
-<div align="center">
-
-| Metrik | Wert |
+| Metric | Value |
 |--------|-------|
-| 📝 Codezeilen | ~1,200 |
-| 🧪 Testabdeckung | 85%+ |
-| 📦 Abhängigkeiten | 5 |
-| 🔄 Zuletzt aktualisiert | {{DATUM}} |
+| Lines of Code | ~1,200 |
+| Test Coverage | 85%+ |
+| Dependencies | 5 |
+| Last Updated | 2026-03-31 |
 
-</div>
+## Roadmap
 
----
+- [ ] **Phase 1**: Extended number systems (Roman, Base-N)
+- [ ] **Phase 2**: Batch conversions
+- [ ] **Phase 3**: User accounts and storage
+- [ ] **Phase 4**: Mobile app
+- [ ] **Phase 5**: API documentation and SDK
 
-## 🛣️ Roadmap
+## Contributing
 
-- [ ] **Phase 1**: Erweiterte Zahlensysteme (römisch, Basis-N)
-- [ ] **Phase 2**: Batch-Konvertierungen
-- [ ] **Phase 3**: Benutzerkonten und Speicherung
-- [ ] **Phase 4**: Mobile App
-- [ ] **Phase 5**: API-Dokumentation und SDK
+We welcome contributions! Here's how you can help:
 
----
-
-## 🤝 Contributing
-
-Wir begrüßen Beiträge! So können Sie helfen:
-
-1. 🍴 **Fork** des Repository
-2. 🌿 **Feature-Branch erstellen** (`git checkout -b feature/amazing-feature`)
-3. 💾 **Änderungen committen** (`git commit -m 'Add amazing feature'`)
-4. 📤 **Zum Branch pushen** (`git push origin feature/amazing-feature`)
-5. 🔃 **Pull Request öffnen**
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
 ### Development Setup
 ```bash
-# Klonen und einrichten
+# Clone and setup
 git clone https://github.com/OutBlade/dtZahlensysteme.git
 cd dtZahlensysteme
 
-# Abhängigkeiten installieren
+# Install dependencies
 composer install
 
-# Entwicklungsserver starten
+# Start development server
 php -S localhost:8000 -t public
 ```
 
 ### Code Style
-- PHP-PSR-Standards folgen
-- Verständliche Variablennamen verwenden
-- Kommentare und Typ-Hinweise hinzufügen
-- Sicherheitsprinzipien beachten
+- Follow PHP PSR standards
+- Use clear variable names
+- Add comments and type hints
+- Follow security principles
 
----
+## Changelog
 
-## 📝 Changelog
-
-### [1.0.0] - Initiales Release
-- ✨ Grundlegende Zahlensystem-Konvertierung
-- 🎨 Modernes Web-Interface
-- 📚 Umfassende Dokumentation
-- 🌐 Mehrsprachige Unterstützung
+### [1.0.0] - Initial Release
+- Basic number system conversion
+- Modern web interface
+- Comprehensive documentation
+- Multilingual support
 
 [View Full Changelog](CHANGELOG.md)
 
----
+## Acknowledgments
 
-## 🙏 Acknowledgments
+- PHP for server-side programming
+- MySQL for reliable data storage
+- Bootstrap for responsive UI framework
+- The open-source community for inspiration and best practices
 
-- [PHP](https://www.php.net/) für die serverseitige Programmierung
-- [MySQL](https://www.mysql.com/) für zuverlässige Datenspeicherung
-- [Bootstrap](https://getbootstrap.com/) für responsives UI-Framework
-- Die Open-Source-Community für Inspiration und Best Practices
+## License
 
----
+This project is licensed under MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 📄 License
+## Links
 
-Dieses Projekt steht unter MIT Lizenz - siehe [LICENSE](LICENSE) Datei für Details.
+https://outblade.github.io/dtZahlensysteme/ • https://www.php.net/docs.php • https://github.com/OutBlade/dtZahlensysteme/issues • https://github.com/OutBlade/dtZahlensysteme/discussions
 
----
-
-## 🔗 Links
-
-<div align="center">
-
-[🎮 Live Demo](https://outblade.github.io/dtZahlensysteme/) • [📖 PHP Docs](https://www.php.net/docs.php) • [🐛 Issues](https://github.com/OutBlade/dtZahlensysteme/issues) • [💬 Discussions](https://github.com/OutBlade/dtZahlensysteme/discussions)
-
-[![GitHub followers](https://img.shields.io/github/followers/OutBlade?style=social)](https://github.com/OutBlade)
-[![GitHub stars](https://img.shields.io/github/stars/OutBlade/dtZahlensysteme?style=social)](https://github.com/OutBlade/dtZahlensysteme)
-
-</div>
-
----
-
-<div align="center">
-Made with 🔢 and ❤️ by [OutBlade](https://github.com/OutBlade)
-</div>
+Made with passion by OutBlade
