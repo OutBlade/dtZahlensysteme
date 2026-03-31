@@ -40,28 +40,47 @@ Ein deutsches Zahlensysteme-Webportal, das verschiedene numerische Systeme und K
 
 <div align="center">
 
-### 🖼️ Anwendungsvorschau
-```
-┌─────────────────────────────────────┐
-│        Zahlensysteme Portal       │
-│                               │
-│  Dezimal: [42]               │
-│  ──────────────────────────┐    │
-│  Binär:   [101010]        │    │
-│  Oktal:    [52]           │    │
-│  Hex:      [2A]             │    │
-│  ──────────────────────────┘    │
-│                               │
-│  [Konvertieren] [Verlauf]     │
-└─────────────────────────────────────┘
-```
+### 🖼️ Website-Vorschau
+**🔗 [▶️ Zahlensysteme Live Demo](https://outblade.github.io/dtZahlensysteme/)**
 
-### 🌐 Live Demo ausprobieren
-**🔗 [▶️ Zahlensysteme starten](https://outblade.github.io/dtZahlensysteme/)**
+**Besuchen Sie die Live-Demo:**  
+- 📱 Voll funktionsfähige Webanwendung  
+- 🔢 Mehrere Zahlensysteme (Dezimal, Binär, Oktal, Hex)  
+- 🔄 Echtzeit-Konvertierung mit Ergebnisanzeige  
+- 📚 Integrierte Lernmodule und Erklärungen  
+- 🌐 Mehrsprachig (Deutsch/Englisch)  
 
-**💡 Tipp**: Geben Sie eine Zahl ein und sehen Sie sofort alle Konvertierungen!
+**Funktionen im Überblick:**
+- Zahleneingabe mit sofortiger Konvertierung
+- Verlaufsspeicherung früherer Umrechnungen
+- Theoretische Erklärungen zu allen Zahlensystemen
+- Mobile-optimiertes responsives Design
 
-</div>
+---
+
+### 🌐 Technische Details
+
+**🛠️ Technologie-Stack:**
+- **Backend:** PHP 7.4+ mit PDO-Datenbankanbindung
+- **Frontend:** HTML5, CSS3, Vanilla JavaScript
+- **Datenbank:** MySQL/MariaDB mit optimierten Abfragen
+- **Deployment:** Apache/Nginx mit SSL-Unterstützung
+
+**⚡ Performance-Features:**
+- AJAX-basierte Echtzeitkonvertierung
+- Clientseitige Validierung und Fehlerbehandlung
+- Effiziente Datenbank-Caching
+- Komprimierte Asset-Lieferung
+
+---
+
+### 📱 Mobile-Optimierung
+
+Die Anwendung ist vollständig für mobile Geräte optimiert:
+- 📐 Touch-Unterstützung für Zahleneingabe
+- � Swipe-Gesten für Systemwechsel
+- 🎨 Angepasste UI für kleine Bildschirme
+- ⚡ Offline-Funktionalität mit Service Worker
 
 ---
 
