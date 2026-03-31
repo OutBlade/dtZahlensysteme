@@ -1,6 +1,6 @@
 # dtZahlensysteme
 
-![dtZahlensysteme Screenshot](https://outblade.github.io/dtZahlensysteme/screenshot.png)
+![dtZahlensysteme Screenshot](https://via.placeholder.com/800x400/1a1a1a/ffffff?text=dtZahlensysteme+Live+Demo)
 
 A German web portal for number systems and conversion tools. This application allows users to convert numbers between different number systems like decimal, binary, octal, and hexadecimal.
 
