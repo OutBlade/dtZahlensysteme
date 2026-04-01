@@ -2,6 +2,8 @@
 
 **Live Demo:** [https://outblade.github.io/dtZahlensysteme/](https://outblade.github.io/dtZahlensysteme/)
 
+![Website Screenshot](https://image.thum.io/get/width/1200/crop/900/https://outblade.github.io/dtZahlensysteme/)
+
 A German web portal for number systems and conversion tools. Convert numbers between decimal, binary, octal, and hexadecimal. Perfect for students, developers, and programmers working with different number bases.
 
 **Keywords:** number system converter, decimal to binary, hexadecimal calculator, octal conversion, number base calculator, binary converter, programming tool
