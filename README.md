@@ -1,33 +1,43 @@
-# dtZahlensysteme
+# dtZahlensysteme - Number System Converter & Calculator
 
-**[https://outblade.github.io/dtZahlensysteme/](https://outblade.github.io/dtZahlensysteme/)**
+**Live Demo:** [https://outblade.github.io/dtZahlensysteme/](https://outblade.github.io/dtZahlensysteme/)
 
-A German web portal for number systems and conversion tools. This application allows users to convert numbers between different number systems like decimal, binary, octal, and hexadecimal.
+A German web portal for number systems and conversion tools. Convert numbers between decimal, binary, octal, and hexadecimal. Perfect for students, developers, and programmers working with different number bases.
 
-Perfect for students, developers, and anyone working with number systems.
+**Keywords:** number system converter, decimal to binary, hexadecimal calculator, octal conversion, number base calculator, binary converter, programming tool
 
 ## Features
 
-- Multiple Number Systems: Decimal, Binary, Octal, Hexadecimal
-- Real-time Conversion: Instant conversion results
-- Learning Mode: Step-by-step explanations
-- Modern UI: Clean, responsive design
-- Mobile-Friendly: Works on all devices
-- History: Saves previous conversions
-- Multilingual: German and English
+- **Number System Converter**: Convert between Decimal, Binary, Octal, Hexadecimal
+- **Real-time Number Conversion**: Instant conversion between number bases
+- **Binary Calculator**: Convert binary to decimal and other bases
+- **Hexadecimal Converter**: Convert hex to decimal, binary, octal
+- **Octal Calculator**: Convert octal to other number systems
+- **Learning Mode**: Step-by-step number system explanations
+- **Modern Web Interface**: Clean, responsive design for all devices
+- **Mobile-Friendly Calculator**: Works on smartphones and tablets
+- **Conversion History**: Saves previous number conversions
+- **Multilingual Tool**: German and English language support
 
 ## Live Demo
 
-Visit the live demo to experience the full application:
+**Convert numbers online now:** [dtZahlensysteme Live Demo](https://outblade.github.io/dtZahlensysteme/)
 
-https://outblade.github.io/dtZahlensysteme/
+**What you can do:**
+- Convert decimal to binary instantly
+- Convert hexadecimal to decimal
+- Convert octal to binary and hex
+- Learn number system conversions
+- Save conversion history
+- Access on mobile devices
 
-Key Features:
-- Fully functional web application
-- Multiple number systems (Decimal, Binary, Octal, Hex)
-- Real-time conversion with result display
-- Integrated learning modules and explanations
-- Mobile-optimized responsive design
+## Technology Stack
+
+- **Backend:** PHP 7.4+ with PDO database connection
+- **Frontend:** HTML5, CSS3, Vanilla JavaScript
+- **Database:** MySQL/MariaDB for conversion history
+- **Server:** Apache/Nginx with SSL support
+- **Math Engine:** PHP built-in conversion functions (decbin, dechex, decoct)
 
 ## Installation
 
@@ -228,22 +238,48 @@ composer test
 | Dependencies | 5 |
 | Last Updated | 2026-03-31 |
 
+## SEO Keywords
+
+This number system converter is optimized for searches related to:
+- Number system converter
+- Decimal to binary converter
+- Hexadecimal calculator
+- Octal to binary conversion
+- Binary to decimal calculator
+- Number base converter
+- Programming number systems
+- Binary calculator online
+- Hex to decimal converter
+- Computer science number conversion
+- Binary to decimal calculator
+- Number base converter
+- Programming number systems
+- Binary calculator online
+- Hex to decimal converter
+- Computer science number conversion
+
+## Related Tools
+
+- [Binary Calculator](https://outblade.github.io/dtZahlensysteme/) - Online binary converter
+- [Hex Calculator](https://outblade.github.io/dtZahlensysteme/) - Hexadecimal conversion tool
+- [Decimal Converter](https://outblade.github.io/dtZahlensysteme/) - Number base calculator
+
 ## Roadmap
 
-- [ ] **Phase 1**: Extended number systems (Roman, Base-N)
-- [ ] **Phase 2**: Batch conversions
-- [ ] **Phase 3**: User accounts and storage
-- [ ] **Phase 4**: Mobile app
-- [ ] **Phase 5**: API documentation and SDK
+- [ ] **Phase 1**: Extended number systems (Roman numerals, Base-N converter)
+- [ ] **Phase 2**: Batch number conversions
+- [ ] **Phase 3**: User accounts and saved conversions
+- [ ] **Phase 4**: Mobile number converter app
+- [ ] **Phase 5**: Number system API and SDK
 
 ## Contributing
 
-We welcome contributions! Here's how you can help:
+We welcome contributions to improve this number system converter! Here's how:
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
+1. Fork the number converter repository
+2. Create a feature branch (`git checkout -b feature/converter-improvement`)
+3. Commit conversion improvements (`git commit -m 'Add number base conversion'`)
+4. Push changes (`git push origin feature/converter-improvement`)
 5. Open a Pull Request
 
 ### Development Setup
@@ -288,6 +324,13 @@ This project is licensed under MIT License - see the [LICENSE](LICENSE) file for
 
 ## Links
 
-https://outblade.github.io/dtZahlensysteme/ • https://www.php.net/docs.php • https://github.com/OutBlade/dtZahlensysteme/issues • https://github.com/OutBlade/dtZahlensysteme/discussions
+- **Number Converter Tool:** [https://outblade.github.io/dtZahlensysteme/](https://outblade.github.io/dtZahlensysteme/)
+- **GitHub Repository:** [https://github.com/OutBlade/dtZahlensysteme](https://github.com/OutBlade/dtZahlensysteme)
+- **PHP Documentation:** [https://www.php.net/docs.php](https://www.php.net/docs.php)
+- **Report Issues:** [https://github.com/OutBlade/dtZahlensysteme/issues](https://github.com/OutBlade/dtZahlensysteme/issues)
 
-Made with passion by OutBlade
+---
+
+Made with passion by [OutBlade](https://github.com/OutBlade)
+
+**Tags:** number converter, binary calculator, hexadecimal converter, octal conversion, decimal to binary, programming tools
